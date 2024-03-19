@@ -79,5 +79,5 @@ echo '</table>
 
 ?>
 
-<a href= "formcard.php">cadastrar </a><br>
+<a href= "formcard.php">Cadastrar </a><br>
 <a href= "formedit.php">editar </a>
