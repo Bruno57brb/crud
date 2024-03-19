@@ -63,14 +63,14 @@ echo '<div class="table">
 
 while ($dados = mysqli_fetch_assoc($resultado)) {
     echo"<tr>";
-    echo "<td>" .  $dados['id_produto']         .  "</td>";
+    echo "<td>" .  $dados['id_usuario']         .  "</td>";
     echo "<td>" .  $dados['nome']         .  "</td>";
     echo "<td>" .  $dados['senha']        .  "</td>";
     
    
     
-    echo "<td><a href='formedit.php?" . "&id_produto=".$dados['id_produto'] . "&nome=".$dados['nome']."&quantidade=".$dados['quantidade']."&valor=".$dados['valor']."'>"."<img src='icon/edit.png' 'widht='20' height='20'"."</a>";
-    echo "<td><a href='exclui.php?" . "&id_produto=".$dados['id_produto'] . "&nome=".$dados['nome']."&quantidade=".$dados['quantidade']."&valor=".$dados['valor']."'>"."<img src='icon/lixo.png' 'widht='20' height='20'"."</a>";
+
+    echo "<td><a href='excluir.php?" . "&id_usuario=".$dados['id_usuario'] . "&nome=".$dados['nome']."&senha=".$dados['senha']."'>"."<img src='img/lixo.png' 'widht='20' height='20'"."</a>";
     
 
 }
