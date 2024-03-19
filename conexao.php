@@ -2,7 +2,7 @@
 $bdServidor = "localhost";
 $bdUsuario = "root";
 $bdSenha = "";
-$bdBanco ="git";
+$bdBanco ="crud";
 $conexao = mysqli_connect($bdServidor, $bdUsuario, $bdSenha, $bdBanco);
 if (mysqli_connect_errno()) {
     echo "problemas para entrar no banco";  
